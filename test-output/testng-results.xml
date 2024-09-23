@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Founded links: <br>]]>
@@ -116,22 +116,22 @@
       <![CDATA[<b><span style='color:green;'>All header links are working as expected. Test passed!</span></b><br>]]>
     </line>
     <line>
-      <![CDATA[Test passed: Invalid email message displayed as expected: Please enter a valid email address.]]>
+      <![CDATA[Test passed: Invalid email message displayed as expected: Please enter a valid email address.<br>]]>
     </line>
     <line>
       <![CDATA[<b><span style='color:green;'>Overall Test Passed!</span></b>]]>
     </line>
     <line>
-      <![CDATA[Test passed: Email validation message displayed as expected: This field is required.]]>
+      <![CDATA[Test passed: Email validation message displayed as expected: This field is required.<br>]]>
     </line>
     <line>
       <![CDATA[<b><span style='color:green;'>Overall Test Passed!</span></b>]]>
     </line>
     <line>
-      <![CDATA[Test passed: Email validation message displayed as expected: This field is required.]]>
+      <![CDATA[Test passed: Email validation message displayed as expected: This field is required.<br>]]>
     </line>
     <line>
-      <![CDATA[Test passed: Agreement message displayed as expected: You must accept Privacy and Cookie Policies before subscription.]]>
+      <![CDATA[Test passed: Agreement message displayed as expected: You must accept Privacy and Cookie Policies before subscription.<br>]]>
     </line>
     <line>
       <![CDATA[<b><span style='color:green;'>Overall Test Passed!</span></b>]]>
@@ -233,22 +233,58 @@
       <![CDATA[<b><span style='color:green;'>All footer links are working as expected. Test passed!</span></b><br>]]>
     </line>
     <line>
-      <![CDATA[Test passed: Subscription success message displayed as expected: Thanks for signing up!]]>
+      <![CDATA[Test passed: Subscription success message displayed as expected: Thanks for signing up!<br>]]>
     </line>
     <line>
       <![CDATA[<b><span style='color:green;'>Overall Test Passed!</span></b>]]>
     </line>
+    <line>
+      <![CDATA[Test passed: Empty email field error message displayed as expected: This field is required.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Test passed: Empty password field error message displayed as expected: This field is required.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Test passed: Invalid email field error message displayed as expected: Please enter a valid email address.<br>]]>
+    </line>
+    <line>
+      <![CDATA[<b><span style='color:green;'>Overall test passed: Email and password field validation completed successfully.</span></b><br>]]>
+    </line>
+    <line>
+      <![CDATA[Test passed: Expected error message displayed: Sorry, your email or password doesn't match our records. Please check that you have entered them correctly<br>]]>
+    </line>
+    <line>
+      <![CDATA[<b><span style='color:green;'>Overall Test Passed for the current data set!</span></b><br>]]>
+    </line>
+    <line>
+      <![CDATA[Test passed: Expected error message displayed: Sorry, your email or password doesn't match our records. Please check that you have entered them correctly<br>]]>
+    </line>
+    <line>
+      <![CDATA[<b><span style='color:green;'>Overall Test Passed for the current data set!</span></b><br>]]>
+    </line>
+    <line>
+      <![CDATA[Test passed: Expected error message displayed: Sorry, your email or password doesn't match our records. Please check that you have entered them correctly<br>]]>
+    </line>
+    <line>
+      <![CDATA[<b><span style='color:green;'>Overall Test Passed for the current data set!</span></b><br>]]>
+    </line>
+    <line>
+      <![CDATA[Test passed: Login Successful<br>]]>
+    </line>
+    <line>
+      <![CDATA[<b><span style='color:green;'>Overall Test Passed for the current data set!</span></b><br>]]>
+    </line>
   </reporter-output>
-  <suite started-at="2024-09-23T18:16:31 IST" name="Smoke Testing" finished-at="2024-09-23T18:18:00 IST" duration-ms="88837">
+  <suite started-at="2024-09-24T16:25:12 IST" name="Smoke Testing" finished-at="2024-09-24T16:27:16 IST" duration-ms="124703">
     <groups>
     </groups>
-    <test started-at="2024-09-23T18:16:31 IST" name="Global Header Links" finished-at="2024-09-23T18:17:21 IST" duration-ms="49573">
+    <test started-at="2024-09-24T16:25:12 IST" name="Global Header Links" finished-at="2024-09-24T16:26:10 IST" duration-ms="58574">
       <class name="GlobalHeaderTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:GlobalHeaderTest@5dd6264]" started-at="2024-09-23T18:16:31 IST" name="setUp" finished-at="2024-09-23T18:16:36 IST" duration-ms="4267" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:GlobalHeaderTest@7c469c48]" started-at="2024-09-24T16:25:12 IST" name="setUp" finished-at="2024-09-24T16:25:19 IST" duration-ms="7141" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testHeaderLinks()[pri:0, instance:GlobalHeaderTest@5dd6264]" started-at="2024-09-23T18:16:36 IST" name="testHeaderLinks" finished-at="2024-09-23T18:17:21 IST" duration-ms="44902" status="PASS">
+        <test-method signature="testHeaderLinks()[pri:0, instance:GlobalHeaderTest@7c469c48]" started-at="2024-09-24T16:25:19 IST" name="testHeaderLinks" finished-at="2024-09-24T16:26:10 IST" duration-ms="51246" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Founded links: <br>]]>
@@ -366,52 +402,52 @@
             </line>
           </reporter-output>
         </test-method> <!-- testHeaderLinks -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:GlobalHeaderTest@5dd6264]" started-at="2024-09-23T18:17:21 IST" name="tearDown" finished-at="2024-09-23T18:17:21 IST" duration-ms="371" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:GlobalHeaderTest@7c469c48]" started-at="2024-09-24T16:26:10 IST" name="tearDown" finished-at="2024-09-24T16:26:10 IST" duration-ms="154" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- GlobalHeaderTest -->
     </test> <!-- Global Header Links -->
-    <test started-at="2024-09-23T18:17:21 IST" name="Global Footer Links" finished-at="2024-09-23T18:18:00 IST" duration-ms="39166">
+    <test started-at="2024-09-24T16:26:10 IST" name="Global Footer Links" finished-at="2024-09-24T16:26:50 IST" duration-ms="40023">
       <class name="GlobalFooterTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:GlobalFooterTest@659a969b]" started-at="2024-09-23T18:17:21 IST" name="setUp" finished-at="2024-09-23T18:17:26 IST" duration-ms="4865" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:GlobalFooterTest@35047d03]" started-at="2024-09-24T16:26:10 IST" name="setUp" finished-at="2024-09-24T16:26:15 IST" duration-ms="4749" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testCheckedAgreementWithInvalidEmail()[pri:0, instance:GlobalFooterTest@659a969b]" started-at="2024-09-23T18:17:26 IST" name="testCheckedAgreementWithInvalidEmail" finished-at="2024-09-23T18:17:28 IST" duration-ms="2492" status="PASS">
+        <test-method signature="testCheckedAgreementWithInvalidEmail()[pri:0, instance:GlobalFooterTest@35047d03]" started-at="2024-09-24T16:26:15 IST" name="testCheckedAgreementWithInvalidEmail" finished-at="2024-09-24T16:26:19 IST" duration-ms="3476" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Test passed: Invalid email message displayed as expected: Please enter a valid email address.]]>
+              <![CDATA[Test passed: Invalid email message displayed as expected: Please enter a valid email address.<br>]]>
             </line>
             <line>
               <![CDATA[<b><span style='color:green;'>Overall Test Passed!</span></b>]]>
             </line>
           </reporter-output>
         </test-method> <!-- testCheckedAgreementWithInvalidEmail -->
-        <test-method signature="testCheckedAgreementWithoutEmail()[pri:0, instance:GlobalFooterTest@659a969b]" started-at="2024-09-23T18:17:28 IST" name="testCheckedAgreementWithoutEmail" finished-at="2024-09-23T18:17:31 IST" duration-ms="2763" status="PASS">
+        <test-method signature="testCheckedAgreementWithoutEmail()[pri:0, instance:GlobalFooterTest@35047d03]" started-at="2024-09-24T16:26:19 IST" name="testCheckedAgreementWithoutEmail" finished-at="2024-09-24T16:26:21 IST" duration-ms="2637" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Test passed: Email validation message displayed as expected: This field is required.]]>
+              <![CDATA[Test passed: Email validation message displayed as expected: This field is required.<br>]]>
             </line>
             <line>
               <![CDATA[<b><span style='color:green;'>Overall Test Passed!</span></b>]]>
             </line>
           </reporter-output>
         </test-method> <!-- testCheckedAgreementWithoutEmail -->
-        <test-method signature="testEmptyEmailSubscription()[pri:0, instance:GlobalFooterTest@659a969b]" started-at="2024-09-23T18:17:31 IST" name="testEmptyEmailSubscription" finished-at="2024-09-23T18:17:34 IST" duration-ms="2470" status="PASS">
+        <test-method signature="testEmptyEmailSubscription()[pri:0, instance:GlobalFooterTest@35047d03]" started-at="2024-09-24T16:26:21 IST" name="testEmptyEmailSubscription" finished-at="2024-09-24T16:26:24 IST" duration-ms="2341" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Test passed: Email validation message displayed as expected: This field is required.]]>
+              <![CDATA[Test passed: Email validation message displayed as expected: This field is required.<br>]]>
             </line>
             <line>
-              <![CDATA[Test passed: Agreement message displayed as expected: You must accept Privacy and Cookie Policies before subscription.]]>
+              <![CDATA[Test passed: Agreement message displayed as expected: You must accept Privacy and Cookie Policies before subscription.<br>]]>
             </line>
             <line>
               <![CDATA[<b><span style='color:green;'>Overall Test Passed!</span></b>]]>
             </line>
           </reporter-output>
         </test-method> <!-- testEmptyEmailSubscription -->
-        <test-method signature="testFooterLinks()[pri:0, instance:GlobalFooterTest@659a969b]" started-at="2024-09-23T18:17:34 IST" name="testFooterLinks" finished-at="2024-09-23T18:17:57 IST" duration-ms="22919" status="PASS">
+        <test-method signature="testFooterLinks()[pri:0, instance:GlobalFooterTest@35047d03]" started-at="2024-09-24T16:26:24 IST" name="testFooterLinks" finished-at="2024-09-24T16:26:47 IST" duration-ms="23358" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Founded links: <br>]]>
@@ -511,21 +547,155 @@
             </line>
           </reporter-output>
         </test-method> <!-- testFooterLinks -->
-        <test-method signature="testValidEmailSubscription()[pri:0, instance:GlobalFooterTest@659a969b]" started-at="2024-09-23T18:17:57 IST" name="testValidEmailSubscription" finished-at="2024-09-23T18:18:00 IST" duration-ms="3397" status="PASS">
+        <test-method signature="testValidEmailSubscription()[pri:0, instance:GlobalFooterTest@35047d03]" started-at="2024-09-24T16:26:47 IST" name="testValidEmailSubscription" finished-at="2024-09-24T16:26:50 IST" duration-ms="3177" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Test passed: Subscription success message displayed as expected: Thanks for signing up!]]>
+              <![CDATA[Test passed: Subscription success message displayed as expected: Thanks for signing up!<br>]]>
             </line>
             <line>
               <![CDATA[<b><span style='color:green;'>Overall Test Passed!</span></b>]]>
             </line>
           </reporter-output>
         </test-method> <!-- testValidEmailSubscription -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:GlobalFooterTest@659a969b]" started-at="2024-09-23T18:18:00 IST" name="tearDown" finished-at="2024-09-23T18:18:00 IST" duration-ms="258" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:GlobalFooterTest@35047d03]" started-at="2024-09-24T16:26:50 IST" name="tearDown" finished-at="2024-09-24T16:26:50 IST" duration-ms="281" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- GlobalFooterTest -->
     </test> <!-- Global Footer Links -->
+    <test started-at="2024-09-24T16:26:50 IST" name="Login Tests" finished-at="2024-09-24T16:27:16 IST" duration-ms="26043">
+      <class name="LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:LoginPageTest@13e39c73]" started-at="2024-09-24T16:26:50 IST" name="setUp" finished-at="2024-09-24T16:26:55 IST" duration-ms="4528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testEmailFieldErrorMessages()[pri:0, instance:LoginPageTest@13e39c73]" started-at="2024-09-24T16:26:55 IST" name="testEmailFieldErrorMessages" finished-at="2024-09-24T16:26:58 IST" duration-ms="2693" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test passed: Empty email field error message displayed as expected: This field is required.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Test passed: Empty password field error message displayed as expected: This field is required.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Test passed: Invalid email field error message displayed as expected: Please enter a valid email address.<br>]]>
+            </line>
+            <line>
+              <![CDATA[<b><span style='color:green;'>Overall test passed: Email and password field validation completed successfully.</span></b><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testEmailFieldErrorMessages -->
+        <test-method signature="testLoginCombinations(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:LoginPageTest@13e39c73]" started-at="2024-09-24T16:26:58 IST" name="testLoginCombinations" data-provider="loginData" finished-at="2024-09-24T16:27:02 IST" duration-ms="3935" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid-email@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalid-password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sorry, your email or password doesn't match our records. Please check that you have entered them correctly]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test passed: Expected error message displayed: Sorry, your email or password doesn't match our records. Please check that you have entered them correctly<br>]]>
+            </line>
+            <line>
+              <![CDATA[<b><span style='color:green;'>Overall Test Passed for the current data set!</span></b><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLoginCombinations -->
+        <test-method signature="testLoginCombinations(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:LoginPageTest@13e39c73]" started-at="2024-09-24T16:27:02 IST" name="testLoginCombinations" data-provider="loginData" finished-at="2024-09-24T16:27:05 IST" duration-ms="3870" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid-email@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Asd123$%^]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sorry, your email or password doesn't match our records. Please check that you have entered them correctly]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test passed: Expected error message displayed: Sorry, your email or password doesn't match our records. Please check that you have entered them correctly<br>]]>
+            </line>
+            <line>
+              <![CDATA[<b><span style='color:green;'>Overall Test Passed for the current data set!</span></b><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLoginCombinations -->
+        <test-method signature="testLoginCombinations(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:LoginPageTest@13e39c73]" started-at="2024-09-24T16:27:05 IST" name="testLoginCombinations" data-provider="loginData" finished-at="2024-09-24T16:27:09 IST" duration-ms="3850" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[d.kaneriya+080920241@astounddigital.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalid-password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sorry, your email or password doesn't match our records. Please check that you have entered them correctly]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test passed: Expected error message displayed: Sorry, your email or password doesn't match our records. Please check that you have entered them correctly<br>]]>
+            </line>
+            <line>
+              <![CDATA[<b><span style='color:green;'>Overall Test Passed for the current data set!</span></b><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLoginCombinations -->
+        <test-method signature="testLoginCombinations(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:LoginPageTest@13e39c73]" started-at="2024-09-24T16:27:09 IST" name="testLoginCombinations" data-provider="loginData" finished-at="2024-09-24T16:27:16 IST" duration-ms="6877" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[d.kaneriya+080920241@astounddigital.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Asd123$%^]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test passed: Login Successful<br>]]>
+            </line>
+            <line>
+              <![CDATA[<b><span style='color:green;'>Overall Test Passed for the current data set!</span></b><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLoginCombinations -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:LoginPageTest@13e39c73]" started-at="2024-09-24T16:27:16 IST" name="tearDown" finished-at="2024-09-24T16:27:16 IST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- LoginPageTest -->
+    </test> <!-- Login Tests -->
   </suite> <!-- Smoke Testing -->
 </testng-results>

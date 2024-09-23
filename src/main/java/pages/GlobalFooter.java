@@ -13,11 +13,11 @@ public class GlobalFooter extends BasePage {
     }
 
     // Locators for email subscription
-    private By emailInput = By.xpath("//input[@id='dwfrm_emailsubscribe_email_d0oogkzawqgg']");
-    private By subscribeButton = By.xpath("//button[contains(text(),'Sign up')]");
+    private By emailInput = By.cssSelector("[placeholder='Enter your email']");
+    private By subscribeButton = By.xpath("//form[@name='subscribe-form']/div[@class='b-newsletters-group']/button[@type='submit']");
     private By subscriptionMessage = By.xpath("//div[@class='b-newsletters-message_success']"); // Adjust based on actual selector
     private By agreementCheckbox = By.xpath("//input[@id='dwfrm_emailsubscribe_agreeToPrivacy']");
-    private By emailValidationMessage = By.xpath("//div[@id='dwfrm_emailsubscribe_email_d0oogkzawqgg-error']");
+    private By emailValidationMessage = By.xpath("//div[starts-with(@id, 'dwfrm_emailsubscribe_email_') and contains(@id, '-error')]");
     private By agreementCheckboxMessage = By.xpath("//div[@id='dwfrm_emailsubscribe_agreeToPrivacy-error']");
 
     public List<WebElement> getFooterLinks() {

@@ -1,0 +1,147 @@
+<html>
+<head>
+<title>TestNG:  Login Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Login Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Sep 24 16:26:50 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>26 seconds (26043 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='LoginPageTest.testLoginCombinations()'><b>testLoginCombinations</b><br>Test class: LoginPageTest<br>Parameters: d.kaneriya+080920241@astounddigital.com, invalid-password, Sorry, your email or password doesn't match our records. Please check that you have entered them correctly<br/>
+<a href="#Output-118504112" onClick='toggleBox("Output-118504112", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-118504112" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-118504112">
+Test passed: Expected error message displayed: Sorry, your email or password doesn't match our records. Please check that you have entered them correctly<br><br/>
+<b><span style='color:green;'>Overall Test Passed for the current data set!</span></b><br><br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>LoginPageTest@13e39c73</td></tr>
+<tr>
+<td title='LoginPageTest.testLoginCombinations()'><b>testLoginCombinations</b><br>Test class: LoginPageTest<br>Parameters: d.kaneriya+080920241@astounddigital.com, Asd123$%^, null<br/>
+<a href="#Output-882962176" onClick='toggleBox("Output-882962176", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-882962176" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-882962176">
+Test passed: Login Successful<br><br/>
+<b><span style='color:green;'>Overall Test Passed for the current data set!</span></b><br><br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>LoginPageTest@13e39c73</td></tr>
+<tr>
+<td title='LoginPageTest.testEmailFieldErrorMessages()'><b>testEmailFieldErrorMessages</b><br>Test class: LoginPageTest<br/>
+<a href="#Output-403960809" onClick='toggleBox("Output-403960809", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-403960809" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-403960809">
+Test passed: Empty email field error message displayed as expected: This field is required.<br><br/>
+Test passed: Empty password field error message displayed as expected: This field is required.<br><br/>
+Test passed: Invalid email field error message displayed as expected: Please enter a valid email address.<br><br/>
+<b><span style='color:green;'>Overall test passed: Email and password field validation completed successfully.</span></b><br><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>LoginPageTest@13e39c73</td></tr>
+<tr>
+<td title='LoginPageTest.testLoginCombinations()'><b>testLoginCombinations</b><br>Test class: LoginPageTest<br>Parameters: invalid-email@example.com, invalid-password, Sorry, your email or password doesn't match our records. Please check that you have entered them correctly<br/>
+<a href="#Output-488669101" onClick='toggleBox("Output-488669101", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-488669101" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-488669101">
+Test passed: Expected error message displayed: Sorry, your email or password doesn't match our records. Please check that you have entered them correctly<br><br/>
+<b><span style='color:green;'>Overall Test Passed for the current data set!</span></b><br><br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>LoginPageTest@13e39c73</td></tr>
+<tr>
+<td title='LoginPageTest.testLoginCombinations()'><b>testLoginCombinations</b><br>Test class: LoginPageTest<br>Parameters: invalid-email@example.com, Asd123$%^, Sorry, your email or password doesn't match our records. Please check that you have entered them correctly<br/>
+<a href="#Output-214768579" onClick='toggleBox("Output-214768579", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-214768579" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-214768579">
+Test passed: Expected error message displayed: Sorry, your email or password doesn't match our records. Please check that you have entered them correctly<br><br/>
+<b><span style='color:green;'>Overall Test Passed for the current data set!</span></b><br><br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>LoginPageTest@13e39c73</td></tr>
+</table><p>
+</body>
+</html>

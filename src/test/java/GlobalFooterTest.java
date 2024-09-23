@@ -1,7 +1,6 @@
-import net.bytebuddy.pool.TypePool;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -14,14 +13,11 @@ import java.time.Duration;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-import java.util.concurrent.TimeUnit;
-
-import static org.testng.Assert.assertEquals;
-
 
 public class GlobalFooterTest extends BaseTest {
 
     private GlobalFooter globalFooter;
+
 
     @Override
     @BeforeClass
@@ -101,17 +97,17 @@ public class GlobalFooterTest extends BaseTest {
         String emailErrorMessage = driver.findElement(globalFooter.getEmailValidationMessage()).getText();
         try {
             Assert.assertEquals(emailErrorMessage, "This field is required.", "Expected email validation message not found.");
-            Reporter.log("Test passed: Email validation message displayed as expected: " + emailErrorMessage, true);
+            Reporter.log("Test passed: Email validation message displayed as expected: " + emailErrorMessage + "<br>", true);
         } catch (AssertionError e) {
-            Reporter.log("Test failed: Expected email validation message not found. Actual: " + emailErrorMessage, true);
+            Reporter.log("Test failed: Expected email validation message not found. Actual: " + emailErrorMessage + "<br>", true);
             testPassed = false; // Set flag to false if assertion fails
         }
         String agreementErrorMessage = driver.findElement(globalFooter.getAgreementCheckboxMessage()).getText();
         try {
             Assert.assertEquals(agreementErrorMessage, "You must accept Privacy and Cookie Policies before subscription.", "Expected agreement message not found.");
-            Reporter.log("Test passed: Agreement message displayed as expected: " + agreementErrorMessage, true);
+            Reporter.log("Test passed: Agreement message displayed as expected: " + agreementErrorMessage + "<br>", true);
         } catch (AssertionError e) {
-            Reporter.log("Test failed: Expected agreement message not found. Actual: " + agreementErrorMessage, true);
+            Reporter.log("Test failed: Expected agreement message not found. Actual: " + agreementErrorMessage + "<br>", true);
             testPassed = false; // Set flag to false if assertion fails
         }
 
@@ -141,9 +137,9 @@ public class GlobalFooterTest extends BaseTest {
         String emailErrorMessage = driver.findElement(globalFooter.getEmailValidationMessage()).getText();
         try {
             Assert.assertEquals(emailErrorMessage, "This field is required.", "Expected email validation message not found.");
-            Reporter.log("Test passed: Email validation message displayed as expected: " + emailErrorMessage, true);
+            Reporter.log("Test passed: Email validation message displayed as expected: " + emailErrorMessage + "<br>", true);
         } catch (AssertionError e) {
-            Reporter.log("Test failed: Expected email validation message not found. Actual: " + emailErrorMessage, true);
+            Reporter.log("Test failed: Expected email validation message not found. Actual: " + emailErrorMessage + "<br>", true);
             testPassed = false;
         }
 
@@ -175,9 +171,9 @@ public class GlobalFooterTest extends BaseTest {
         String emailErrorMessage = driver.findElement(globalFooter.getEmailValidationMessage()).getText();
         try {
             Assert.assertEquals(emailErrorMessage, "Please enter a valid email address.", "Expected invalid email message not found.");
-            Reporter.log("Test passed: Invalid email message displayed as expected: " + emailErrorMessage, true);
+            Reporter.log("Test passed: Invalid email message displayed as expected: " + emailErrorMessage + "<br>", true);
         } catch (AssertionError e) {
-            Reporter.log("Test failed: Expected invalid email message not found. Actual: " + emailErrorMessage, true);
+            Reporter.log("Test failed: Expected invalid email message not found. Actual: " + emailErrorMessage + "<br>", true);
             testPassed = false;
         }
 
@@ -211,9 +207,9 @@ public class GlobalFooterTest extends BaseTest {
         String subscriptionMessage = driver.findElement(globalFooter.getSubscriptionMessage()).getText();
         try {
             Assert.assertEquals(subscriptionMessage, "Thanks for signing up!", "Expected subscription success message not found.");
-            Reporter.log("Test passed: Subscription success message displayed as expected: " + subscriptionMessage, true);
+            Reporter.log("Test passed: Subscription success message displayed as expected: " + subscriptionMessage + "<br>", true);
         } catch (AssertionError e) {
-            Reporter.log("Test failed: Expected subscription success message not found. Actual: " + subscriptionMessage, true);
+            Reporter.log("Test failed: Expected subscription success message not found. Actual: " + subscriptionMessage + "<br>", true);
             testPassed = false;
         }
 

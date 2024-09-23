@@ -17,6 +17,7 @@ import java.util.List;
 import java.util.Set;
 
 public class GlobalHeaderTest extends BaseTest {
+
     @Test
     public void testHeaderLinks() {
         int flag = 0;
