@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TulipSmokeTesting(failed)">
+    <classes>
+      <class name="GlobalHeaderTest">
+        <methods>
+          <include name="testHeaderLinks"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- GlobalHeaderTest -->
+    </classes>
+  </test> <!-- TulipSmokeTesting(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

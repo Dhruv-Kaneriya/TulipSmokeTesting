@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Smoke Testing]">
+  <test thread-count="5" name="Global Footer Links(failed)">
+    <classes>
+      <class name="GlobalFooterTest">
+        <methods>
+          <include name="testCheckedAgreementWithoutEmail"/>
+          <include name="tearDown"/>
+          <include name="testEmptyEmailSubscription"/>
+          <include name="setUp"/>
+          <include name="testCheckedAgreementWithInvalidEmail"/>
+          <include name="testValidEmailSubscription"/>
+        </methods>
+      </class> <!-- GlobalFooterTest -->
+    </classes>
+  </test> <!-- Global Footer Links(failed) -->
+</suite> <!-- Failed suite [Smoke Testing] -->

@@ -1,0 +1,176 @@
+<html>
+<head>
+<title>TestNG:  Global Footer Links</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Global Footer Links</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Sep 23 18:17:21 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>39 seconds (39166 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='GlobalFooterTest.testFooterLinks()'><b>testFooterLinks</b><br>Test class: GlobalFooterTest<br/>
+<a href="#Output-1526305386" onClick='toggleBox("Output-1526305386", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1526305386" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1526305386">
+Founded links: <br><br/>
+1. https://development.tulipcremation.com/faqs/faq.html<br><br/>
+<b><span style='color:green;'>Assertion passed</span></b><br><br/>
+2. https://development.afterall.com/privacy-policy.html<br><br/>
+<b><span style='color:green;'>Assertion passed</span></b><br><br/>
+3. https://development.tulipcremation.com/articles/tulip-expert-guides.html<br><br/>
+<b><span style='color:green;'>Assertion passed</span></b><br><br/>
+4. https://development.tulipcremation.com/pricing.html<br><br/>
+<b><span style='color:green;'>Assertion passed</span></b><br><br/>
+5. mailto:care@tulipcremation.com<br><br/>
+Skipping assertion for mail link: mailto:care@tulipcremation.com<br><br/>
+6. https://development.afterall.com/help-center/customer-service/terms-and-conditions/terms-of-use.html<br><br/>
+<b><span style='color:green;'>Assertion passed</span></b><br><br/>
+7. https://search.dca.ca.gov/details/4800/FD/2467/933fc0f99744d220b7f83d7255868285<br><br/>
+<b><span style='color:green;'>Assertion passed</span></b><br><br/>
+8. https://development.tulipcremation.com/articles/tulip-expert-guides/tulip-care-professionals.html<br><br/>
+<b><span style='color:green;'>Assertion passed</span></b><br><br/>
+9. https://search.dca.ca.gov/details/4800/FD/2322/71bccc311f3e56ccd0160ac553aecf18<br><br/>
+<b><span style='color:green;'>Assertion passed</span></b><br><br/>
+10. tel:8449424909<br><br/>
+Skipping assertion for tel link: tel:8449424909<br><br/>
+11. https://www.facebook.com/tulipcremation<br><br/>
+<b><span style='color:green;'>Assertion passed</span></b><br><br/>
+12. https://development.tulipcremation.com/our-services.html<br><br/>
+<b><span style='color:green;'>Assertion passed</span></b><br><br/>
+13. https://development.tulipcremation.com/service-areas/service-area.html<br><br/>
+<b><span style='color:green;'>Assertion passed</span></b><br><br/>
+14. https://development.tulipcremation.com/our-story.html<br><br/>
+<b><span style='color:green;'>Assertion passed</span></b><br><br/>
+15. https://development.tulipcremation.com/general-price-lists.html<br><br/>
+<b><span style='color:green;'>Assertion passed</span></b><br><br/>
+<b><span style='color:green;'>All footer links are working as expected. Test passed!</span></b><br><br/>
+</div>
+</td>
+<td></td>
+<td>22</td>
+<td>GlobalFooterTest@659a969b</td></tr>
+<tr>
+<td title='GlobalFooterTest.testEmptyEmailSubscription()'><b>testEmptyEmailSubscription</b><br>Test class: GlobalFooterTest<br/>
+<a href="#Output-1589466857" onClick='toggleBox("Output-1589466857", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1589466857" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1589466857">
+Test passed: Email validation message displayed as expected: This field is required.<br/>
+Test passed: Agreement message displayed as expected: You must accept Privacy and Cookie Policies before subscription.<br/>
+<b><span style='color:green;'>Overall Test Passed!</span></b><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>GlobalFooterTest@659a969b</td></tr>
+<tr>
+<td title='GlobalFooterTest.testValidEmailSubscription()'><b>testValidEmailSubscription</b><br>Test class: GlobalFooterTest<br/>
+<a href="#Output-1721576219" onClick='toggleBox("Output-1721576219", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1721576219" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1721576219">
+Test passed: Subscription success message displayed as expected: Thanks for signing up!<br/>
+<b><span style='color:green;'>Overall Test Passed!</span></b><br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>GlobalFooterTest@659a969b</td></tr>
+<tr>
+<td title='GlobalFooterTest.testCheckedAgreementWithInvalidEmail()'><b>testCheckedAgreementWithInvalidEmail</b><br>Test class: GlobalFooterTest<br/>
+<a href="#Output-217470033" onClick='toggleBox("Output-217470033", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-217470033" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-217470033">
+Test passed: Invalid email message displayed as expected: Please enter a valid email address.<br/>
+<b><span style='color:green;'>Overall Test Passed!</span></b><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>GlobalFooterTest@659a969b</td></tr>
+<tr>
+<td title='GlobalFooterTest.testCheckedAgreementWithoutEmail()'><b>testCheckedAgreementWithoutEmail</b><br>Test class: GlobalFooterTest<br/>
+<a href="#Output-1037475674" onClick='toggleBox("Output-1037475674", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1037475674" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1037475674">
+Test passed: Email validation message displayed as expected: This field is required.<br/>
+<b><span style='color:green;'>Overall Test Passed!</span></b><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>GlobalFooterTest@659a969b</td></tr>
+</table><p>
+</body>
+</html>

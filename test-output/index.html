@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Smoke_Testing" class="navigator-link">
+              <span class="suite-name border-passed">Smoke Testing</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Smoke_Testing" class="navigator-link ">
+                    <span>C:\Users\d.kaneriya\IdeaProjects\TulipSmokeTesting\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Smoke_Testing" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Smoke_Testing" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Smoke_Testing" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Smoke_Testing" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Smoke_Testing" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Smoke_Testing" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Smoke_Testing" class="hide-methods passed suite-Smoke_Testing"> (hide)</a> <!-- hide-methods passed suite-Smoke_Testing -->
+                      <a href="#" panel-name="suite-Smoke_Testing" class="show-methods passed suite-Smoke_Testing"> (show)</a> <!-- show-methods passed suite-Smoke_Testing -->
+                    </span>
+                    <div class="method-list-content passed suite-Smoke_Testing">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke_Testing" title="GlobalFooterTest" class="method navigator-link" hash-for-method="testCheckedAgreementWithInvalidEmail">testCheckedAgreementWithInvalidEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke_Testing" title="GlobalFooterTest" class="method navigator-link" hash-for-method="testCheckedAgreementWithoutEmail">testCheckedAgreementWithoutEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke_Testing" title="GlobalFooterTest" class="method navigator-link" hash-for-method="testEmptyEmailSubscription">testEmptyEmailSubscription</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke_Testing" title="GlobalFooterTest" class="method navigator-link" hash-for-method="testFooterLinks">testFooterLinks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke_Testing" title="GlobalHeaderTest" class="method navigator-link" hash-for-method="testHeaderLinks">testHeaderLinks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke_Testing" title="GlobalFooterTest" class="method navigator-link" hash-for-method="testValidEmailSubscription">testValidEmailSubscription</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Smoke_Testing -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Smoke_Testing" class="panel Smoke_Testing">
+          <div class="suite-Smoke_Testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">GlobalHeaderTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHeaderLinks">
+                  </a> <!-- testHeaderLinks -->
+                  <span class="method-name">testHeaderLinks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Smoke_Testing-class-passed -->
+          <div class="suite-Smoke_Testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">GlobalFooterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckedAgreementWithInvalidEmail">
+                  </a> <!-- testCheckedAgreementWithInvalidEmail -->
+                  <span class="method-name">testCheckedAgreementWithInvalidEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckedAgreementWithoutEmail">
+                  </a> <!-- testCheckedAgreementWithoutEmail -->
+                  <span class="method-name">testCheckedAgreementWithoutEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEmptyEmailSubscription">
+                  </a> <!-- testEmptyEmailSubscription -->
+                  <span class="method-name">testEmptyEmailSubscription</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFooterLinks">
+                  </a> <!-- testFooterLinks -->
+                  <span class="method-name">testFooterLinks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidEmailSubscription">
+                  </a> <!-- testValidEmailSubscription -->
+                  <span class="method-name">testValidEmailSubscription</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Smoke_Testing-class-passed -->
+        </div> <!-- panel Smoke_Testing -->
+        <div panel-name="test-xml-Smoke_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\d.kaneriya\IdeaProjects\TulipSmokeTesting\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Smoke Testing&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Global Header Links&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;GlobalHeaderTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Global Header Links --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Global Footer Links&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;GlobalFooterTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Global Footer Links --&gt;
+&lt;/suite&gt; &lt;!-- Smoke Testing --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Smoke_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Smoke Testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Global Header Links (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Global Footer Links (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Smoke_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Smoke Testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Smoke_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Smoke Testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Smoke_Testing');
+function tableData_Smoke_Testing() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testHeaderLinks')
+data.setCell(0, 2, 'GlobalHeaderTest')
+data.setCell(0, 3, 44902);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testFooterLinks')
+data.setCell(1, 2, 'GlobalFooterTest')
+data.setCell(1, 3, 22919);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testValidEmailSubscription')
+data.setCell(2, 2, 'GlobalFooterTest')
+data.setCell(2, 3, 3397);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testCheckedAgreementWithoutEmail')
+data.setCell(3, 2, 'GlobalFooterTest')
+data.setCell(3, 3, 2763);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testCheckedAgreementWithInvalidEmail')
+data.setCell(4, 2, 'GlobalFooterTest')
+data.setCell(4, 3, 2492);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testEmptyEmailSubscription')
+data.setCell(5, 2, 'GlobalFooterTest')
+data.setCell(5, 3, 2470);
+window.suiteTableData['Smoke_Testing']= { tableData: data, tableDiv: 'times-div-Smoke_Testing'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Smoke_Testing">
+              </div> <!-- times-div-Smoke_Testing -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Smoke_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Smoke Testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testHeaderLinks</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Founded links: <br></span>
+                <span class="reporter-method-output">1. https://development.tulipcremation.com/immediate-need.html<br></span>
+                <span class="reporter-method-output"><b><span style='color:green;'>Assertion passed</span></b><br></span>
+                <span class="reporter-method-output">2. https://development.tulipcremation.com/faqs/faq.html<br></span>
+                <span class="reporter-method-output"><b><span style='color:green;'>Assertion passed</span></b><br></span>
+                <span class="reporter-method-output">3. https://development.tulipcremation.com/articles/tulip-expert-guides.html<br></span>
+                <span class="reporter-method-output"><b><span style='color:green;'>Assertion passed</span></b><br></span>
+                <span class="reporter-method-output">4. https://development.tulipcremation.com/contact_us.html<br></span>
+                <span class="reporter-method-output"><b><span style='color:green;'>Assertion passed</span></b><br></span>
+                <span class="reporter-method-output">5. https://development.tulipcremation.com/pricing.html<br></span>
+                <span class="reporter-method-output"><b><span style='color:green;'>Assertion passed</span></b><br></span>
+                <span class="reporter-method-output">6. https://www.tulip.joinobit.com/<br></span>
+                <span class="reporter-method-output"><b><span style='color:green;'>Assertion passed</span></b><br></span>
+                <span class="reporter-method-output">7. https://development.tulipcremation.com/articles/tulip-expert-guides/death-resources/what-is-a-general-price-list-for-cremation-and-funeral-services.html<br></span>
+                <span class="reporter-method-output"><b><span style='color:green;'>Assertion passed</span></b><br></span>
+                <span class="reporter-method-output">8. https://development.tulipcremation.com/instant-quote/<br></span>
+                <span class="reporter-method-output"><b><span style='color:green;'>Assertion passed</span></b><br></span>
+                <span class="reporter-method-output">9. https://storefront:fpg2022@development.tulipcremation.com/#<br></span>
+                <span class="reporter-method-output"><b><span style='color:green;'>Assertion passed</span></b><br></span>
+                <span class="reporter-method-output">10. https://development.tulipcremation.com/imminent-need.html<br></span>
+                <span class="reporter-method-output"><b><span style='color:green;'>Assertion passed</span></b><br></span>
+                <span class="reporter-method-output">11. tel:8449424909<br></span>
+                <span class="reporter-method-output">Skipping assertion for tel link: tel:8449424909<br></span>
+                <span class="reporter-method-output">12. https://development.tulipcremation.com/login/<br></span>
+                <span class="reporter-method-output"><b><span style='color:green;'>Assertion passed</span></b><br></span>
+                <span class="reporter-method-output">13. https://development.tulipcremation.com/our-services.html<br></span>
+                <span class="reporter-method-output"><b><span style='color:green;'>Assertion passed</span></b><br></span>
+                <span class="reporter-method-output">14. https://development.tulipcremation.com/plan-ahead.html<br></span>
+                <span class="reporter-method-output"><b><span style='color:green;'>Assertion passed</span></b><br></span>
+                <span class="reporter-method-output">15. https://development.tulipcremation.com/service-areas/service-area.html<br></span>
+                <span class="reporter-method-output"><b><span style='color:green;'>Assertion passed</span></b><br></span>
+                <span class="reporter-method-output">16. https://development.tulipcremation.com/stories/stories.html<br></span>
+                <span class="reporter-method-output"><b><span style='color:green;'>Assertion passed</span></b><br></span>
+                <span class="reporter-method-output">17. https://development.tulipcremation.com/<br></span>
+                <span class="reporter-method-output"><b><span style='color:green;'>Assertion passed</span></b><br></span>
+                <span class="reporter-method-output">18. https://development.tulipcremation.com/articles/tulip-expert-guides/end-of-life-planning/what-is-direct-cremation.html<br></span>
+                <span class="reporter-method-output"><b><span style='color:green;'>Assertion passed</span></b><br></span>
+                <span class="reporter-method-output"><b><span style='color:green;'>All header links are working as expected. Test passed!</span></b><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testFooterLinks</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Founded links: <br></span>
+                <span class="reporter-method-output">1. https://development.tulipcremation.com/faqs/faq.html<br></span>
+                <span class="reporter-method-output"><b><span style='color:green;'>Assertion passed</span></b><br></span>
+                <span class="reporter-method-output">2. https://development.afterall.com/privacy-policy.html<br></span>
+                <span class="reporter-method-output"><b><span style='color:green;'>Assertion passed</span></b><br></span>
+                <span class="reporter-method-output">3. https://development.tulipcremation.com/articles/tulip-expert-guides.html<br></span>
+                <span class="reporter-method-output"><b><span style='color:green;'>Assertion passed</span></b><br></span>
+                <span class="reporter-method-output">4. https://development.tulipcremation.com/pricing.html<br></span>
+                <span class="reporter-method-output"><b><span style='color:green;'>Assertion passed</span></b><br></span>
+                <span class="reporter-method-output">5. mailto:care@tulipcremation.com<br></span>
+                <span class="reporter-method-output">Skipping assertion for mail link: mailto:care@tulipcremation.com<br></span>
+                <span class="reporter-method-output">6. https://development.afterall.com/help-center/customer-service/terms-and-conditions/terms-of-use.html<br></span>
+                <span class="reporter-method-output"><b><span style='color:green;'>Assertion passed</span></b><br></span>
+                <span class="reporter-method-output">7. https://search.dca.ca.gov/details/4800/FD/2467/933fc0f99744d220b7f83d7255868285<br></span>
+                <span class="reporter-method-output"><b><span style='color:green;'>Assertion passed</span></b><br></span>
+                <span class="reporter-method-output">8. https://development.tulipcremation.com/articles/tulip-expert-guides/tulip-care-professionals.html<br></span>
+                <span class="reporter-method-output"><b><span style='color:green;'>Assertion passed</span></b><br></span>
+                <span class="reporter-method-output">9. https://search.dca.ca.gov/details/4800/FD/2322/71bccc311f3e56ccd0160ac553aecf18<br></span>
+                <span class="reporter-method-output"><b><span style='color:green;'>Assertion passed</span></b><br></span>
+                <span class="reporter-method-output">10. tel:8449424909<br></span>
+                <span class="reporter-method-output">Skipping assertion for tel link: tel:8449424909<br></span>
+                <span class="reporter-method-output">11. https://www.facebook.com/tulipcremation<br></span>
+                <span class="reporter-method-output"><b><span style='color:green;'>Assertion passed</span></b><br></span>
+                <span class="reporter-method-output">12. https://development.tulipcremation.com/our-services.html<br></span>
+                <span class="reporter-method-output"><b><span style='color:green;'>Assertion passed</span></b><br></span>
+                <span class="reporter-method-output">13. https://development.tulipcremation.com/service-areas/service-area.html<br></span>
+                <span class="reporter-method-output"><b><span style='color:green;'>Assertion passed</span></b><br></span>
+                <span class="reporter-method-output">14. https://development.tulipcremation.com/our-story.html<br></span>
+                <span class="reporter-method-output"><b><span style='color:green;'>Assertion passed</span></b><br></span>
+                <span class="reporter-method-output">15. https://development.tulipcremation.com/general-price-lists.html<br></span>
+                <span class="reporter-method-output"><b><span style='color:green;'>Assertion passed</span></b><br></span>
+                <span class="reporter-method-output"><b><span style='color:green;'>All footer links are working as expected. Test passed!</span></b><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testEmptyEmailSubscription</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test passed: Email validation message displayed as expected: This field is required.</span>
+                <span class="reporter-method-output">Test passed: Agreement message displayed as expected: You must accept Privacy and Cookie Policies before subscription.</span>
+                <span class="reporter-method-output"><b><span style='color:green;'>Overall Test Passed!</span></b></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testValidEmailSubscription</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test passed: Subscription success message displayed as expected: Thanks for signing up!</span>
+                <span class="reporter-method-output"><b><span style='color:green;'>Overall Test Passed!</span></b></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testCheckedAgreementWithInvalidEmail</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test passed: Invalid email message displayed as expected: Please enter a valid email address.</span>
+                <span class="reporter-method-output"><b><span style='color:green;'>Overall Test Passed!</span></b></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testCheckedAgreementWithoutEmail</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test passed: Email validation message displayed as expected: This field is required.</span>
+                <span class="reporter-method-output"><b><span style='color:green;'>Overall Test Passed!</span></b></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Smoke_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Smoke_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">GlobalHeaderTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testHeaderLinks</span>
+                <span class="method-start">4277 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">49182 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">GlobalFooterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">49651 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testCheckedAgreementWithInvalidEmail</span>
+                <span class="method-start">54517 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCheckedAgreementWithoutEmail</span>
+                <span class="method-start">57009 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testEmptyEmailSubscription</span>
+                <span class="method-start">59772 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFooterLinks</span>
+                <span class="method-start">62242 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testValidEmailSubscription</span>
+                <span class="method-start">85162 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">88559 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Founded links: <br>]]>
+    </line>
+    <line>
+      <![CDATA[1. https://development.tulipcremation.com/immediate-need.html<br>]]>
+    </line>
+    <line>
+      <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+    </line>
+    <line>
+      <![CDATA[2. https://development.tulipcremation.com/faqs/faq.html<br>]]>
+    </line>
+    <line>
+      <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+    </line>
+    <line>
+      <![CDATA[3. https://development.tulipcremation.com/articles/tulip-expert-guides.html<br>]]>
+    </line>
+    <line>
+      <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+    </line>
+    <line>
+      <![CDATA[4. https://development.tulipcremation.com/contact_us.html<br>]]>
+    </line>
+    <line>
+      <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+    </line>
+    <line>
+      <![CDATA[5. https://development.tulipcremation.com/pricing.html<br>]]>
+    </line>
+    <line>
+      <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+    </line>
+    <line>
+      <![CDATA[6. https://www.tulip.joinobit.com/<br>]]>
+    </line>
+    <line>
+      <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+    </line>
+    <line>
+      <![CDATA[7. https://development.tulipcremation.com/articles/tulip-expert-guides/death-resources/what-is-a-general-price-list-for-cremation-and-funeral-services.html<br>]]>
+    </line>
+    <line>
+      <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+    </line>
+    <line>
+      <![CDATA[8. https://development.tulipcremation.com/instant-quote/<br>]]>
+    </line>
+    <line>
+      <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+    </line>
+    <line>
+      <![CDATA[9. https://storefront:fpg2022@development.tulipcremation.com/#<br>]]>
+    </line>
+    <line>
+      <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+    </line>
+    <line>
+      <![CDATA[10. https://development.tulipcremation.com/imminent-need.html<br>]]>
+    </line>
+    <line>
+      <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+    </line>
+    <line>
+      <![CDATA[11. tel:8449424909<br>]]>
+    </line>
+    <line>
+      <![CDATA[Skipping assertion for tel link: tel:8449424909<br>]]>
+    </line>
+    <line>
+      <![CDATA[12. https://development.tulipcremation.com/login/<br>]]>
+    </line>
+    <line>
+      <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+    </line>
+    <line>
+      <![CDATA[13. https://development.tulipcremation.com/our-services.html<br>]]>
+    </line>
+    <line>
+      <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+    </line>
+    <line>
+      <![CDATA[14. https://development.tulipcremation.com/plan-ahead.html<br>]]>
+    </line>
+    <line>
+      <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+    </line>
+    <line>
+      <![CDATA[15. https://development.tulipcremation.com/service-areas/service-area.html<br>]]>
+    </line>
+    <line>
+      <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+    </line>
+    <line>
+      <![CDATA[16. https://development.tulipcremation.com/stories/stories.html<br>]]>
+    </line>
+    <line>
+      <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+    </line>
+    <line>
+      <![CDATA[17. https://development.tulipcremation.com/<br>]]>
+    </line>
+    <line>
+      <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+    </line>
+    <line>
+      <![CDATA[18. https://development.tulipcremation.com/articles/tulip-expert-guides/end-of-life-planning/what-is-direct-cremation.html<br>]]>
+    </line>
+    <line>
+      <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<b><span style='color:green;'>All header links are working as expected. Test passed!</span></b><br>]]>
+    </line>
+    <line>
+      <![CDATA[Test passed: Invalid email message displayed as expected: Please enter a valid email address.]]>
+    </line>
+    <line>
+      <![CDATA[<b><span style='color:green;'>Overall Test Passed!</span></b>]]>
+    </line>
+    <line>
+      <![CDATA[Test passed: Email validation message displayed as expected: This field is required.]]>
+    </line>
+    <line>
+      <![CDATA[<b><span style='color:green;'>Overall Test Passed!</span></b>]]>
+    </line>
+    <line>
+      <![CDATA[Test passed: Email validation message displayed as expected: This field is required.]]>
+    </line>
+    <line>
+      <![CDATA[Test passed: Agreement message displayed as expected: You must accept Privacy and Cookie Policies before subscription.]]>
+    </line>
+    <line>
+      <![CDATA[<b><span style='color:green;'>Overall Test Passed!</span></b>]]>
+    </line>
+    <line>
+      <![CDATA[Founded links: <br>]]>
+    </line>
+    <line>
+      <![CDATA[1. https://development.tulipcremation.com/faqs/faq.html<br>]]>
+    </line>
+    <line>
+      <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+    </line>
+    <line>
+      <![CDATA[2. https://development.afterall.com/privacy-policy.html<br>]]>
+    </line>
+    <line>
+      <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+    </line>
+    <line>
+      <![CDATA[3. https://development.tulipcremation.com/articles/tulip-expert-guides.html<br>]]>
+    </line>
+    <line>
+      <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+    </line>
+    <line>
+      <![CDATA[4. https://development.tulipcremation.com/pricing.html<br>]]>
+    </line>
+    <line>
+      <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+    </line>
+    <line>
+      <![CDATA[5. mailto:care@tulipcremation.com<br>]]>
+    </line>
+    <line>
+      <![CDATA[Skipping assertion for mail link: mailto:care@tulipcremation.com<br>]]>
+    </line>
+    <line>
+      <![CDATA[6. https://development.afterall.com/help-center/customer-service/terms-and-conditions/terms-of-use.html<br>]]>
+    </line>
+    <line>
+      <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+    </line>
+    <line>
+      <![CDATA[7. https://search.dca.ca.gov/details/4800/FD/2467/933fc0f99744d220b7f83d7255868285<br>]]>
+    </line>
+    <line>
+      <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+    </line>
+    <line>
+      <![CDATA[8. https://development.tulipcremation.com/articles/tulip-expert-guides/tulip-care-professionals.html<br>]]>
+    </line>
+    <line>
+      <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+    </line>
+    <line>
+      <![CDATA[9. https://search.dca.ca.gov/details/4800/FD/2322/71bccc311f3e56ccd0160ac553aecf18<br>]]>
+    </line>
+    <line>
+      <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+    </line>
+    <line>
+      <![CDATA[10. tel:8449424909<br>]]>
+    </line>
+    <line>
+      <![CDATA[Skipping assertion for tel link: tel:8449424909<br>]]>
+    </line>
+    <line>
+      <![CDATA[11. https://www.facebook.com/tulipcremation<br>]]>
+    </line>
+    <line>
+      <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+    </line>
+    <line>
+      <![CDATA[12. https://development.tulipcremation.com/our-services.html<br>]]>
+    </line>
+    <line>
+      <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+    </line>
+    <line>
+      <![CDATA[13. https://development.tulipcremation.com/service-areas/service-area.html<br>]]>
+    </line>
+    <line>
+      <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+    </line>
+    <line>
+      <![CDATA[14. https://development.tulipcremation.com/our-story.html<br>]]>
+    </line>
+    <line>
+      <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+    </line>
+    <line>
+      <![CDATA[15. https://development.tulipcremation.com/general-price-lists.html<br>]]>
+    </line>
+    <line>
+      <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<b><span style='color:green;'>All footer links are working as expected. Test passed!</span></b><br>]]>
+    </line>
+    <line>
+      <![CDATA[Test passed: Subscription success message displayed as expected: Thanks for signing up!]]>
+    </line>
+    <line>
+      <![CDATA[<b><span style='color:green;'>Overall Test Passed!</span></b>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-09-23T18:16:31 IST" name="Smoke Testing" finished-at="2024-09-23T18:18:00 IST" duration-ms="88837">
+    <groups>
+    </groups>
+    <test started-at="2024-09-23T18:16:31 IST" name="Global Header Links" finished-at="2024-09-23T18:17:21 IST" duration-ms="49573">
+      <class name="GlobalHeaderTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:GlobalHeaderTest@5dd6264]" started-at="2024-09-23T18:16:31 IST" name="setUp" finished-at="2024-09-23T18:16:36 IST" duration-ms="4267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testHeaderLinks()[pri:0, instance:GlobalHeaderTest@5dd6264]" started-at="2024-09-23T18:16:36 IST" name="testHeaderLinks" finished-at="2024-09-23T18:17:21 IST" duration-ms="44902" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Founded links: <br>]]>
+            </line>
+            <line>
+              <![CDATA[1. https://development.tulipcremation.com/immediate-need.html<br>]]>
+            </line>
+            <line>
+              <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+            </line>
+            <line>
+              <![CDATA[2. https://development.tulipcremation.com/faqs/faq.html<br>]]>
+            </line>
+            <line>
+              <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+            </line>
+            <line>
+              <![CDATA[3. https://development.tulipcremation.com/articles/tulip-expert-guides.html<br>]]>
+            </line>
+            <line>
+              <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+            </line>
+            <line>
+              <![CDATA[4. https://development.tulipcremation.com/contact_us.html<br>]]>
+            </line>
+            <line>
+              <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+            </line>
+            <line>
+              <![CDATA[5. https://development.tulipcremation.com/pricing.html<br>]]>
+            </line>
+            <line>
+              <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+            </line>
+            <line>
+              <![CDATA[6. https://www.tulip.joinobit.com/<br>]]>
+            </line>
+            <line>
+              <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+            </line>
+            <line>
+              <![CDATA[7. https://development.tulipcremation.com/articles/tulip-expert-guides/death-resources/what-is-a-general-price-list-for-cremation-and-funeral-services.html<br>]]>
+            </line>
+            <line>
+              <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+            </line>
+            <line>
+              <![CDATA[8. https://development.tulipcremation.com/instant-quote/<br>]]>
+            </line>
+            <line>
+              <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+            </line>
+            <line>
+              <![CDATA[9. https://storefront:fpg2022@development.tulipcremation.com/#<br>]]>
+            </line>
+            <line>
+              <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+            </line>
+            <line>
+              <![CDATA[10. https://development.tulipcremation.com/imminent-need.html<br>]]>
+            </line>
+            <line>
+              <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+            </line>
+            <line>
+              <![CDATA[11. tel:8449424909<br>]]>
+            </line>
+            <line>
+              <![CDATA[Skipping assertion for tel link: tel:8449424909<br>]]>
+            </line>
+            <line>
+              <![CDATA[12. https://development.tulipcremation.com/login/<br>]]>
+            </line>
+            <line>
+              <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+            </line>
+            <line>
+              <![CDATA[13. https://development.tulipcremation.com/our-services.html<br>]]>
+            </line>
+            <line>
+              <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+            </line>
+            <line>
+              <![CDATA[14. https://development.tulipcremation.com/plan-ahead.html<br>]]>
+            </line>
+            <line>
+              <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+            </line>
+            <line>
+              <![CDATA[15. https://development.tulipcremation.com/service-areas/service-area.html<br>]]>
+            </line>
+            <line>
+              <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+            </line>
+            <line>
+              <![CDATA[16. https://development.tulipcremation.com/stories/stories.html<br>]]>
+            </line>
+            <line>
+              <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+            </line>
+            <line>
+              <![CDATA[17. https://development.tulipcremation.com/<br>]]>
+            </line>
+            <line>
+              <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+            </line>
+            <line>
+              <![CDATA[18. https://development.tulipcremation.com/articles/tulip-expert-guides/end-of-life-planning/what-is-direct-cremation.html<br>]]>
+            </line>
+            <line>
+              <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+            </line>
+            <line>
+              <![CDATA[<b><span style='color:green;'>All header links are working as expected. Test passed!</span></b><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testHeaderLinks -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:GlobalHeaderTest@5dd6264]" started-at="2024-09-23T18:17:21 IST" name="tearDown" finished-at="2024-09-23T18:17:21 IST" duration-ms="371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- GlobalHeaderTest -->
+    </test> <!-- Global Header Links -->
+    <test started-at="2024-09-23T18:17:21 IST" name="Global Footer Links" finished-at="2024-09-23T18:18:00 IST" duration-ms="39166">
+      <class name="GlobalFooterTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:GlobalFooterTest@659a969b]" started-at="2024-09-23T18:17:21 IST" name="setUp" finished-at="2024-09-23T18:17:26 IST" duration-ms="4865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCheckedAgreementWithInvalidEmail()[pri:0, instance:GlobalFooterTest@659a969b]" started-at="2024-09-23T18:17:26 IST" name="testCheckedAgreementWithInvalidEmail" finished-at="2024-09-23T18:17:28 IST" duration-ms="2492" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test passed: Invalid email message displayed as expected: Please enter a valid email address.]]>
+            </line>
+            <line>
+              <![CDATA[<b><span style='color:green;'>Overall Test Passed!</span></b>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCheckedAgreementWithInvalidEmail -->
+        <test-method signature="testCheckedAgreementWithoutEmail()[pri:0, instance:GlobalFooterTest@659a969b]" started-at="2024-09-23T18:17:28 IST" name="testCheckedAgreementWithoutEmail" finished-at="2024-09-23T18:17:31 IST" duration-ms="2763" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test passed: Email validation message displayed as expected: This field is required.]]>
+            </line>
+            <line>
+              <![CDATA[<b><span style='color:green;'>Overall Test Passed!</span></b>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCheckedAgreementWithoutEmail -->
+        <test-method signature="testEmptyEmailSubscription()[pri:0, instance:GlobalFooterTest@659a969b]" started-at="2024-09-23T18:17:31 IST" name="testEmptyEmailSubscription" finished-at="2024-09-23T18:17:34 IST" duration-ms="2470" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test passed: Email validation message displayed as expected: This field is required.]]>
+            </line>
+            <line>
+              <![CDATA[Test passed: Agreement message displayed as expected: You must accept Privacy and Cookie Policies before subscription.]]>
+            </line>
+            <line>
+              <![CDATA[<b><span style='color:green;'>Overall Test Passed!</span></b>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testEmptyEmailSubscription -->
+        <test-method signature="testFooterLinks()[pri:0, instance:GlobalFooterTest@659a969b]" started-at="2024-09-23T18:17:34 IST" name="testFooterLinks" finished-at="2024-09-23T18:17:57 IST" duration-ms="22919" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Founded links: <br>]]>
+            </line>
+            <line>
+              <![CDATA[1. https://development.tulipcremation.com/faqs/faq.html<br>]]>
+            </line>
+            <line>
+              <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+            </line>
+            <line>
+              <![CDATA[2. https://development.afterall.com/privacy-policy.html<br>]]>
+            </line>
+            <line>
+              <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+            </line>
+            <line>
+              <![CDATA[3. https://development.tulipcremation.com/articles/tulip-expert-guides.html<br>]]>
+            </line>
+            <line>
+              <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+            </line>
+            <line>
+              <![CDATA[4. https://development.tulipcremation.com/pricing.html<br>]]>
+            </line>
+            <line>
+              <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+            </line>
+            <line>
+              <![CDATA[5. mailto:care@tulipcremation.com<br>]]>
+            </line>
+            <line>
+              <![CDATA[Skipping assertion for mail link: mailto:care@tulipcremation.com<br>]]>
+            </line>
+            <line>
+              <![CDATA[6. https://development.afterall.com/help-center/customer-service/terms-and-conditions/terms-of-use.html<br>]]>
+            </line>
+            <line>
+              <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+            </line>
+            <line>
+              <![CDATA[7. https://search.dca.ca.gov/details/4800/FD/2467/933fc0f99744d220b7f83d7255868285<br>]]>
+            </line>
+            <line>
+              <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+            </line>
+            <line>
+              <![CDATA[8. https://development.tulipcremation.com/articles/tulip-expert-guides/tulip-care-professionals.html<br>]]>
+            </line>
+            <line>
+              <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+            </line>
+            <line>
+              <![CDATA[9. https://search.dca.ca.gov/details/4800/FD/2322/71bccc311f3e56ccd0160ac553aecf18<br>]]>
+            </line>
+            <line>
+              <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+            </line>
+            <line>
+              <![CDATA[10. tel:8449424909<br>]]>
+            </line>
+            <line>
+              <![CDATA[Skipping assertion for tel link: tel:8449424909<br>]]>
+            </line>
+            <line>
+              <![CDATA[11. https://www.facebook.com/tulipcremation<br>]]>
+            </line>
+            <line>
+              <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+            </line>
+            <line>
+              <![CDATA[12. https://development.tulipcremation.com/our-services.html<br>]]>
+            </line>
+            <line>
+              <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+            </line>
+            <line>
+              <![CDATA[13. https://development.tulipcremation.com/service-areas/service-area.html<br>]]>
+            </line>
+            <line>
+              <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+            </line>
+            <line>
+              <![CDATA[14. https://development.tulipcremation.com/our-story.html<br>]]>
+            </line>
+            <line>
+              <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+            </line>
+            <line>
+              <![CDATA[15. https://development.tulipcremation.com/general-price-lists.html<br>]]>
+            </line>
+            <line>
+              <![CDATA[<b><span style='color:green;'>Assertion passed</span></b><br>]]>
+            </line>
+            <line>
+              <![CDATA[<b><span style='color:green;'>All footer links are working as expected. Test passed!</span></b><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testFooterLinks -->
+        <test-method signature="testValidEmailSubscription()[pri:0, instance:GlobalFooterTest@659a969b]" started-at="2024-09-23T18:17:57 IST" name="testValidEmailSubscription" finished-at="2024-09-23T18:18:00 IST" duration-ms="3397" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test passed: Subscription success message displayed as expected: Thanks for signing up!]]>
+            </line>
+            <line>
+              <![CDATA[<b><span style='color:green;'>Overall Test Passed!</span></b>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidEmailSubscription -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:GlobalFooterTest@659a969b]" started-at="2024-09-23T18:18:00 IST" name="tearDown" finished-at="2024-09-23T18:18:00 IST" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- GlobalFooterTest -->
+    </test> <!-- Global Footer Links -->
+  </suite> <!-- Smoke Testing -->
+</testng-results>

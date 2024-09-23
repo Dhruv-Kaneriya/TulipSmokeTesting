@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Smoke Testing">
+    <test name="Global Header Links">
+        <classes>
+            <class name="GlobalHeaderTest"/>
+        </classes>
+    </test>
+    <test name="Global Footer Links">
+        <classes>
+            <class name="GlobalFooterTest"/>
+        </classes>
+    </test>
+</suite>s
